@@ -89,7 +89,7 @@ let condition6 = false;
 const logicalExpression = condition5 || condition6;
 console.log(!logicalExpression || logicalExpression);
 
-// Check if a person can buy a car depending on whether thie loan is approved or their cash amount is great than the car cost.
+// Check if a person can buy a car depending on whether this loan is approved or their cash amount is great than the car cost.
 let isLoanApproved = true;
 let cash = 30000;
 let cost2 = 40000;
@@ -101,7 +101,7 @@ let isLoanRejected = false;
 const isLoanGranted = !isLoanRejected;
 console.log(isLoanGranted);
 
-// Check if score is greater than or wqual to minScore with the greater-than-or-equal to operator.
+// Check if score is greater than or equal to minScore with the greater-than-or-equal to operator.
 const score3 = 11;
 const minScore = 10;
 const pass = score >= minScore;
