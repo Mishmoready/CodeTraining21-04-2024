@@ -41,3 +41,18 @@ if (isFreezing <= 0) {
   isFreezing = true;
 }
 console.log("Is freezing: " + isFreezing);
+
+// Code an if statement that checks if the destination variable equals "Venice". If the comparison is true, use console.log to display a string with more than 10 characters
+let destination = "Venice";
+if (destination === "Venice") {
+  console.log("Welcome to Venice");
+}
+
+// Code an if statement that displays a message of your choice if votes is greater than or equal to votesNeeded
+let votes = 300;
+let votesNeeded = 4000;
+if (votes >= votesNeeded) {
+  console.log("the president");
+} else {
+  console.log("Donald Trump");
+}
