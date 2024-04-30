@@ -104,4 +104,77 @@ if (memoryFull2) {
 let messages = 5;
 if (messages === 0) {
   console.log("inbox empty");
+} else {
+  console.log("You have a new message");
+}
+
+// Code an if / else statement that sets inboxFull to true if messages is greater than 1000. Then, display a message if it's not
+let messages2 = 1100;
+let inboxFull = false;
+
+if (messages2 > 1000) {
+  inboxFull = true;
+} else {
+  console.log("more mail needed");
+}
+
+// Code an if / else statement whose code blocks display messages in the console. Set the if statement condition to check if commonFriends is greater than 2.
+let commonFriends = 3;
+if (commonFriends > 2) {
+  console.log("Lucky friend you are");
+} else {
+  console.log("You're a shitty friend haha");
+}
+
+//Set a boolean value to installed so that the if statement's code block runs.
+let installed = true;
+if (installed) {
+  console.log("Homeflix already installed");
+} else {
+  console.log("Installing Homeflix...");
+}
+
+// Code in the missing keywords
+let topping = "pepperoni";
+if (topping === "pineapple") {
+  console.log("Request denied.");
+} else if (topping === "pepperoni") {
+  console.log("Request accepted");
+} else {
+  console.log("Can't process request.");
+}
+
+// Code an else if statement that checks if the email variable is a certain value and displays something in the console if it is.
+let email = "lori@mail.com";
+if (email === "lori@mail.com") {
+  console.log("Welcome, Lori.");
+} else if (email === "Mori@mail.com") {
+  console.log("Wrong Password");
+} else {
+  console.log("Not working");
+}
+
+// Add a third else if statement that checks for an email as the other conditions do. Display something in the console if the condition is met.
+let email2 = "doggy@mail.com";
+if (email2 === "erin@mail.com") {
+  console.error("Wrong Credentials");
+} else if (email2 === "conln@mail.com") {
+  console.warn("You might be cindy");
+} else if (email2 === "cindy@mail.com") {
+  console.count("Howdy Cindy..." + " how");
+} else if (email2 === "doggy@mail.com") {
+  console.info("Hi doggy");
+} else {
+  console.log("Invalid email");
+}
+
+//Run the code block of the else statement by creating a let variable named user Answer and assigning it an appropriate value
+let correctAnswer = "Python";
+let userAnswer = correctAnswer;
+if (userAnswer === correctAnswer) {
+  console.log("That's correct!");
+} else if (userAnswer === "Java") {
+  console.log("java is not correct");
+} else {
+  console.error("The Correct answer is Python!");
 }
