@@ -1,5 +1,5 @@
 //Update the variable subscribed so that the comparison returns true and the text displays in the console.
-let sucscribed = false;
+let subscribe = false;
 const subscribed = true;
 if (subscribed === true) {
   console.log("Thank you for subscribing!");
@@ -55,4 +55,53 @@ if (votes >= votesNeeded) {
   console.log("the president");
 } else {
   console.log("Donald Trump");
+}
+
+// Set a value for isInstalled so that You already have SnapCat displays in the console.
+let isInstalled = true;
+if (isInstalled) {
+  console.log("you already have SnapCat dumbarse");
+} else {
+  console.log("Installing SnapCat...");
+}
+
+// Code an if/else statement using isWeekend as the condition. For each code block, code a console.log that outputs a string of your choice.
+let isWeekend2 = false;
+if (isWeekend2) {
+  console.log("Happy Weather");
+} else {
+  console.log("Shotty Weather");
+}
+
+// Code an if / else statement whose code blocks display different messages in the console.The condition of the if statement should check if password equals correctPassword.
+let password = "00000001";
+let correctPassword = "00000000";
+if (password === correctPassword) {
+  console.log("Access granted");
+} else {
+  console.log("Wrong Password");
+}
+
+// Code an else statement that updates flourAdded to 200 if the user didn't sift in enough flour in the cake batter.
+let flourAdded = 50;
+let flourNeeded = 200;
+if (flourAdded === flourNeeded) {
+  console.log("Add vanilla bean");
+} else {
+  flourNeeded = 200;
+}
+
+// Set memoryFull so that takePicture updates to true.
+let memoryFull2 = false;
+let takePicture2 = false;
+if (memoryFull2) {
+  console.log("Phone memory full");
+} else {
+  takePicture2 = true;
+}
+
+// Add an else statement that displays "You have a new message" if messages is greater than 0.
+let messages = 5;
+if (messages === 0) {
+  console.log("inbox empty");
 }
