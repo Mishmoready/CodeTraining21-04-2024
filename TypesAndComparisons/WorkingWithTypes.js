@@ -1,9 +1,9 @@
-// + is the joing or adding sign. When joing two caribles, we can get different results depending on their types. Join the values and take a look at the difference between using + with string, and with numbers.
+// + is the joining or adding sign. When joining two variables, we can get different results depending on their types. Join the values and take a look at the difference between using + with string, and with numbers.
 
 console.log("10" + " " + "10"); // 1010
 console.log(10 + 10); // 20
 
-// When joing numbers with string, the number will be automatically transformed in to a string. Join the values and take a look at the resulting string.
+// When joining numbers with string, the number will be automatically transformed in to a string. Join the values and take a look at the resulting string.
 
 const result = "10" + " " + 10;
 console.log(result); // 1010
