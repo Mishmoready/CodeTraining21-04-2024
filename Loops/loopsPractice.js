@@ -81,3 +81,82 @@ while (isOn === true) {
   console.log("Now Playing: Yummy Yummy");
   isOn = false;
 }
+
+// We know how to repeat code using a while loop. Like this program repeating statements to display The American Flag.
+let counter1 = 0;
+while (counter1 < 5) {
+  console.log("**********---------");
+  counter1++;
+}
+let counter2 = 0;
+while (counter2 < 4) {
+  console.log("-------------------");
+  counter2++;
+}
+
+//Using for loops, we can rewrite the same program making it easier for other programmers to understand.
+for (let i = 0; i < 4; i++) {
+  console.log("**********---------");
+}
+for (let i = 0; i < 4; i++) {
+  console.log("-------------------");
+}
+
+// To create a for loop, we start with the for keyword, parentheses ( ), and braces { }.
+// for () {}
+
+//A for loop lets us create the counter variable inside the parentheses, like let counter = 1;.
+// for let counter = 1; {}
+
+// A common name for a counter variable is the letter i which stands for index. We'll use it for learning about for loops.
+// for (let i =1;) {}
+
+// After the semicolon, we place a condition like i < 5 and add another semicolon ;.
+// for (let i = 1; i < 5; ) {}
+
+// Last, we increment the counter variable with i++.
+for (let i = 1; i < 5; i++) {
+  console.log(i);
+}
+
+// Inside the parentheses, create the counter variable with let i = 5;.
+for (let ii = 5; ii < 10; ii++) {
+  console.log(ii);
+}
+
+//Inside the parentheses, create the counter variable and condition.
+for (let i = 303; i < 306; i < 55) {
+  console.log(i);
+  break;
+}
+
+// Inside the for loop's code block, display the counter variable.
+for (let index = 0; index <= 50; index++) {
+  console.log(index);
+}
+
+//This for loop counts upward from 1 to 5. Let's learn how to change it to loop downward from 5 to 1.
+for (let i = 1; i < 6; i++) {
+  console.log(i);
+}
+// LOOPING DOWNWARD
+for (let i = 5; i > -10; i--) {
+  console.log(i);
+}
+
+// Rather than incrementing the counter variable, we decrement it with i--.
+for (let i = 5; i > 0; i--) {
+  console.log(i);
+}
+
+// To include 0 when counting down, we use >= instead of >.
+for (let i = 5; i >= 0; i--) {
+  console.log(i);
+}
+
+// What does this code display in the console?
+let acceleration = 0;
+while (acceleration < 3) {
+  acceleration++;
+  console.log(acceleration);
+}
